@@ -36,13 +36,14 @@ public class BoardServiceImpl implements BoardService{
 
 	@Override
 	public void removeBoard(int id) {
-		// TODO Auto-generated method stub
-		
+		System.out.println("게시글을 삭제합니다.");
+		boardDao.deleteBoard(id);
 	}
 
 	@Override
 	public void modifyBoard(Board board) {
-		// TODO Auto-generated method stub
+		System.out.println("게시글을 수정합니다.");
+		boardDao.updateBoard(board);
 		
 	}
 

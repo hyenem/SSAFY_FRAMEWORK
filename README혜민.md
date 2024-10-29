@@ -1,17 +1,18 @@
-# 1016 review README 
+# 1017 review README 
 
-## Listener & Filter
+## File Upload
 ### TRY1
-* 라이브 들은 직후 Listener의 개념이 아예 잡히지 않아서 그 용도에 대해 공부함
-* Listner까지는 혼자서 했는데 Filter는 xml 설정과 fConfig사용하는 것을 다 할 줄 몰라함. 그래서 실습 중 작성한 파일을 보며 떠듬떠듬 만들어감.
+* 라이브 들은 직후 다 이해해서 우선 코드를 혼자 작성해보기 시작
+* ResourceLoader를 사용하는 부분이 이해가 왼벽히 되지 않았다는 것을 알게되었다.
+* Resource 와 ResourceLoader에 대한 이해를 chatGPT의 도움을 받아 해내었다.
 
 ### TRY2
 * 혼자 힘으로 모두 작성함
 
 ## Filter & Interceptor
 ### TRY1
-* 라이브 들은 직후 모든 내용이 이해는 되었으나 어떤 것들을 구현했는지 기억이 안나서 코드를 한번 쭉 살펴봄
-* 전체적으로 한번 보고 차근차근 따라해봄
+* 라이브 들은 직후 흐름은 따라갔으나 FileDownloadView부분이 완벽히 이해되지 않았고, BeanNameViewResolver의 사용법이 어색하여 그부분을 다시 한번 해봄
+* 그리고 처음부터 끝까지 라이브 강의 흐름을 그대로 따라가며 라이브 강의 파일을 살펴보며 따라서 입력해봄
 
 ## TRY2
 * 혼자 힘으로 모두 작성함

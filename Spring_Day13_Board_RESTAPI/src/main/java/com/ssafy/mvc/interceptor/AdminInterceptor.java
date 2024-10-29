@@ -13,10 +13,14 @@ public class AdminInterceptor implements HandlerInterceptor{
 	public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler)
 			throws Exception {
 		HttpSession session = request.getSession();
-		if(!"admin".equals(session.getAttribute("loginUser"))) {
-			response.sendRedirect("list");
-			return false;
+		
+		if("GET".equalsIgnoreCase(request.getMethod())) {
+			if(!"admin".equals(session.getAttribute("loginUser"))) {
+				response.sendRedirect("list");
+				return false;
+			}	
 		}
+		
 		return true;
 	}
 }
